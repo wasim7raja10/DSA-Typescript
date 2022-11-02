@@ -1,0 +1,23 @@
+{
+  "name": "dsa-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasim7raja10/DSA-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasim7raja10/DSA-Javascript/issues"
+  },
+  "homepage": "https://github.com/wasim7raja10/DSA-Javascript#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
