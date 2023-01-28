@@ -1,4 +1,4 @@
-const sumOfDifferences = require('./sum-of-differences-in-array');
+import sumOfDifferences from './sum-of-differences-in-array';
 
 test('sum of differences test 0', () => {
   expect(sumOfDifferences([1, 2, 10])).toBe(9);

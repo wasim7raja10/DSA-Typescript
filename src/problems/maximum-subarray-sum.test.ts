@@ -1,4 +1,4 @@
-const maxSequence = require('./maximum-subarray-sum');
+import maxSequence from './maximum-subarray-sum';
 
 test('max subarray sum test 0', () => {
   expect(maxSequence([])).toBe(0);

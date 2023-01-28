@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c/train/javascript
 
-var maxSequence = function (arr) {
+const maxSequence = function (arr: number[]): number {
   // answer can be 0 or > 0 
   // as [] is the fallback subarray if all the elements are -ve
   let ans = 0, sum = 0;
@@ -18,4 +18,4 @@ var maxSequence = function (arr) {
   return ans
 }
 
-module.exports = maxSequence;
+export default maxSequence;

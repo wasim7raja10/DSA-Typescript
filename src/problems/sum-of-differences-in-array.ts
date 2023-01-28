@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e/train/javascript
 
-var sumOfDifferences = function (arr) {
+const sumOfDifferences = function (arr: number[]) : number {
   // if arr.lenth > 1 lets go
   if (arr.length > 1) {
 
@@ -33,4 +33,4 @@ var sumOfDifferences = function (arr) {
   return 0;
 }
 
-module.exports = sumOfDifferences;
+export default sumOfDifferences;
